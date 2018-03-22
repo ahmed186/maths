@@ -1,0 +1,173 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+#container{width:1000px;
+/*border:1px solid gray;*/
+height:200px;
+margin:0 auto;	
+}
+
+#header{hight:100px;
+}
+
+
+#brand{
+	float: left;
+	clear: right;
+	margin-left:15px;
+}
+
+
+h1 a{font-size:50px;
+font-weight:100;
+color:#861BFF;
+text-decoration:none;
+}
+
+#searchbox{float:right;
+background:linear-gradient(#E4F2B9,#B7E953);
+width:400px;
+height:60px;
+padding:10px 10px 0 10px;
+margin-top:10px;
+}
+.text{float:left;
+width:200px;
+padding:5px;
+color:#E36A09;
+font-size:15px;
+margin-left:10px;
+margin-top:15px;
+	
+	
+	}
+
+.submit{float:right;
+padding:5px;
+font-size:12px;
+font-weight:bold;
+color:white;
+background-color:#A751D6;
+margin-top:15px;
+margin-right:10px;
+	}
+
+
+.clear{clear:both;
+}
+#menu{height:70px;
+background:linear-gradient(#F8F594,#D5D533);
+margin-top:50px;
+	
+}
+
+ul{list-style:none
+}
+
+#menu ul li {float:left;
+padding:0 30px;
+margin-top:17px;
+height:20px;
+border-right:1px solid #939; 
+
+}
+
+#menu ul li:last-child{
+	border-right:none;
+}
+#menu ul li a{text-decoration:none;
+text-transform:uppercase;
+font-size:15px;
+color:#939;
+transition:font-size .5s ease;
+	
+}
+
+#menu ul li a:hover,#menu ul li a.active{text-decoration:none;
+text-transform:uppercase;
+font-size:20px;
+color:#903;
+	
+}
+
+#introduction{background:linear-gradient(#E4F2B9,#B7E953);
+height:300px;
+padding:20px;
+margin-top:10px;
+margin-bottom:10px;
+}
+
+#introduction h3{font-size:45px;
+color:#090;
+font-weight:normal;
+}
+#introduction p{font-size:25px;
+color:#789450;
+text-align:justify;
+}
+
+.sidebar{height:600px;
+width:400px;
+border:1px solid #BAF46F;
+border-radius:20px;
+padding:10px 20px;
+	
+	
+}
+.sidebar h3{font-size:36px;
+color:#60F;
+	
+}
+#leftsidebar{float:left;
+	
+}
+#leftsidebar ul li {
+
+padding-top:10px;
+	
+}
+
+#leftsidebar ul li a {text-decoration:none;
+margin-bottom:10px;
+padding-top:10px;
+font-size:20px;
+	
+}
+
+#leftsidebar ul li a:hover,#leftsidebar ul li a.active {text-decoration:none;
+
+padding-top:10px;
+font-size:25px;
+color:#90C;
+transition:.3s ease;
+	
+}
+#rightsidebar{float:right;
+
+	
+}
+#rightsidebar ul li {
+
+padding-top:10px;
+	
+}
+#rightsidebar ul li a {text-decoration:none;
+margin-bottom:10px;
+padding-top:10px;
+font-size:20px
+}
+#rightsidebar ul li a:hover {text-decoration:none;
+
+padding-top:10px;
+font-size:25px;
+color:#90C;
+transition:.3s ease;
+	
+}
+.footerr{height:60px;
+background:#9C0;
+padding:10px 20px;
+margin:10px;
+	
+}
